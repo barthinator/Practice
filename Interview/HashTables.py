@@ -1,5 +1,8 @@
 #Ransom note
 
+#This can be updated with just one hastable that decrements
+#when ransom is found, if any are negative then wont work
+
 magazine = ["give", "me", "one", "grand", "today", "night"]
 ransom = ["give", "me", "one", "grand"]
 
@@ -39,3 +42,5 @@ for m, r in zip(magDict, ransomDict):
         print("NOPE")
 
 #return "yes"
+
+print(list(zip(magDict, ransomDict)))
